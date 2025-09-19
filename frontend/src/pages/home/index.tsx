@@ -53,7 +53,7 @@ const HomePage = ({ brand }: Info) => {
               </p>
               <p className="mb-4 text-black text-lg">{item.description}</p>
               <button className="inline-block rounded bg-primary p-2 text-lg text-white">
-                Order
+                Order 
               </button>
             </div>
           ))

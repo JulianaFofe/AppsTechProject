@@ -48,14 +48,12 @@ const Navbar = ({ brand, items }: NavbarProps) => {
           ))}
         </ul>
         <div className="flex gap-4">
-          <Button
-            className="border border-red-700 text-red-700 py-1 px-7 rounded-sm"
-            title="Login"
-          />
-          <Button
-            className="border bg-red-700 text-white py-1 px-7 rounded-sm"
-            title="Sign Up"
-          />
+          <Link to="/login">
+            <Button
+              className="border border-red-700 text-red-700 py-1 px-7 rounded-sm"
+              title="Login"
+            />
+          </Link>
         </div>
       </div>
 
@@ -81,14 +79,12 @@ const Navbar = ({ brand, items }: NavbarProps) => {
             ))}
           </ul>
           <div className="flex flex-col gap-3 w-1/2">
-            <Button
-              className="border border-red-700 text-red-700 py-2 rounded-sm"
-              title="Login"
-            />
-            <Button
-              className="border bg-red-700 text-white py-2 rounded-sm"
-              title="Sign Up"
-            />
+            <Link to= '/login'>
+              <Button
+                className="border border-red-700 text-red-700 py-2 rounded-sm"
+                title="Login"
+              />
+            </Link>
           </div>
         </div>
       )}
